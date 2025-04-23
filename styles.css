@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+
+.container {
+  width: 400px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #28a745;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+li span {
+  flex: 1;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.button-group {
+  display: flex;
+  gap: 8px;
+}
+
+.complete-btn {
+  background-color: #3b82f6;
+}
+
+.complete-btn:hover {
+  background-color: #2563eb;
+}
+
+.complete-btn.completed-btn {
+  background-color: #f97316;
+}
+
+.complete-btn.completed-btn:hover {
+  background-color: #ea580c;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.clear-btn {
+  display: block;
+  margin: 20px auto 0;
+  background-color: #6b7280;
+}
+
+.clear-btn:hover {
+  background-color: #4b5563;
+}
